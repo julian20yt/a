@@ -1,0 +1,19 @@
+so real
+{iscript:
+load {iv} a
+load {avatar} avatar
+get a width aw
+get a height ah
+distort avatar resize aw ah
+opacity avatar 50
+copy a b
+audiopitch b 0.5454545454
+audioputmix a b
+copy a c
+audiopitch b 1.75
+audioputmix a c
+copy a d
+reverse d
+audioputreplace d a
+render d
+}
