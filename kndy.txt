@@ -1,0 +1,28 @@
+mp3 {iscript:
+load {iv} a
+copy a b
+reverse b
+convert b image/png
+setframecount b 180
+slide b 
+detunnel b
+swirl b 45
+invert b
+flop b
+swirl b 45
+invert b
+flop b
+swirl b 45
+invert b
+flop b
+swirl b 45
+invert b
+flop b
+swirl b 180
+flop b
+swirl b 180
+flop b
+tunnel b
+concat a b
+render a
+}
