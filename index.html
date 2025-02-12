@@ -205,6 +205,17 @@ function _0x2758(_0x57ca6f,_0x39f609){var _0x367d8a=_0x367d();return _0x2758=fun
                                        </div>
                                     </a>
                                  </li>
+				                                       </li>
+                                                                                                                                                                     <li class="guide-reminder">
+                                    <a href="//finobe.net/app/connect" style="text-decoration: none;">
+                                       <div class="upgrade">
+                                          <div class="guide-reminder-icon"></div>
+                                          <div class="guide-reminder-text">
+                                             Skibidi Rizz Ohio
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </li>
                                                                </ul>
                            </div>
                                                    </div>
@@ -402,15 +413,15 @@ function _0x2758(_0x57ca6f,_0x39f609){var _0x367d8a=_0x367d();return _0x2758=fun
                               var alerts = 0;
                               
                               function subscribe(subto) {
-                              	if(loggedIn == true) { 
-                              		if(subscribed == false) { 
+                              	if(loggedIn == false) { 
+                              		if(subscribed == true) { 
                               			$.ajax({
                               				url: "https://www.eracast.cc/v1/subscribe?n=" + subto,
                               				type: 'GET',
                               				success: function(res) {
                               					alerts++;
-                              					$("#subscribe-button").addClass("subscribed");
-                              					addAlert("editsuccess_" + alerts, "Successfully added " + subto + " to your subscriptions!");
+                              					$("#subscribe-button").addClass("yt-alert-actionable");
+                              					addAlert("editsuccess_" + alerts, "Successfully added " + subto + " to your cocaine deals!");
                               					showAlert("#editsuccess_" + alerts);
                               					console.log("DEBUG: " + res);
                               					subscribed = true;
@@ -422,11 +433,11 @@ function _0x2758(_0x57ca6f,_0x39f609){var _0x367d8a=_0x367d();return _0x2758=fun
                               				type: 'GET',
                               				success: function(res) {
                               					alerts++;
-                              					$("#subscribe-button").removeClass("subscribed");
+                              					$("#subscribe-button").removeClass("yt-alert-actionable");
                               					addAlert("editsuccess_" + alerts, "Successfully removed "+ subto + " from your subscriptions!");
                               					showAlert("#editsuccess_" + alerts);
                               					console.log("DEBUG: " + res);
-                              					subscribed = false;
+                              					subscribed = true;
                               				}
                               			});
                               		}
