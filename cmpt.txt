@@ -1,7 +1,7 @@
 so real
 {iscript:
 load {iv} a
-load {avatar} avatar
+load {avatar:{randuser}} avatar
 get a width aw
 get a height ah
 distort avatar resize aw ah
