@@ -15,5 +15,6 @@ audioputmix a c
 copy a d
 reverse d
 audioputreplace d a
+volume d
 render d
 }
