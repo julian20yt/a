@@ -22,6 +22,18 @@ swirl b 180
 flop b
 swirl b 180
 flop b
+flip b
+invert b
+invert b
+invert b
+invert b
+invert b
+invert b
+invert b
+invert b
+invert b
+invert b
+flip b
 tunnel b
 concat a b
 render a
