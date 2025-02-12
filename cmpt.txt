@@ -16,5 +16,6 @@ copy a d
 reverse d
 audioputreplace d a
 volume d
+overlay d avatar
 render d
 }
