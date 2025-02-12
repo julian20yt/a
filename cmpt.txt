@@ -5,7 +5,7 @@ load {avatar:{randuser}} avatar
 get a width aw
 get a height ah
 distort avatar resize aw ah
-opacity avatar 50
+opacity avatar 15
 copy a b
 audiopitch b 0.5454545454
 audioputmix a b
