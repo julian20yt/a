@@ -12,8 +12,4 @@ join # a
 copy # b
 flip b
 join # b true
-copy # oh
-exo oh
-opacity oh 25
-overlay # oh
 }
