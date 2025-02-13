@@ -23,16 +23,7 @@ flop b
 swirl b 180
 flop b
 flip b
-invert b
-invert b
-invert b
-invert b
-invert b
-invert b
-invert b
-invert b
-invert b
-invert b
+meme b ass
 flip b
 tunnel b
 concat a b
