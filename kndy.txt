@@ -1,4 +1,4 @@
-mp3 {iscript:
+mp4 {iscript:
 load {iv} a
 copy a b
 reverse b
@@ -12,19 +12,6 @@ flop b
 swirl b 45
 invert b
 flop b
-swirl b 45
-invert b
-flop b
-swirl b 45
-invert b
-flop b
-swirl b 180
-flop b
-swirl b 180
-flop b
-flip b
-meme b ass
-flip b
 tunnel b
 concat a b
 render a
