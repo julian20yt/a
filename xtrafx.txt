@@ -1,0 +1,21 @@
+sus
+{iscript:
+load {iv} #
+copy # #a
+audiopitch #a 0.75
+overlay # #a
+contrast # -1
+volume # 2
+copy # a
+flop a
+join # a
+copy # b
+flip b
+join # b true
+copy # oh
+opacity oh 25
+exo oh
+overlay # oh
+copy # no
+audiopitch no 1.75
+overlay # no
