@@ -14,9 +14,6 @@ flip b
 join # b true
 copy # oh
 exo oh
-overlay # oh
-copy # no
-audiopitch no 1.75
-opacity oh 75
+opacity oh 25
 overlay # oh
 }
