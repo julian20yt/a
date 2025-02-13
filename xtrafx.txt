@@ -13,10 +13,10 @@ copy # b
 flip b
 join # b true
 copy # oh
-opacity oh 25
 exo oh
 overlay # oh
 copy # no
 audiopitch no 1.75
+opacity oh 25
 overlay # no
 }
