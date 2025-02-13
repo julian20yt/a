@@ -17,6 +17,6 @@ exo oh
 overlay # oh
 copy # no
 audiopitch no 1.75
-opacity oh 25
-overlay # no
+opacity oh 75
+overlay # oh
 }
