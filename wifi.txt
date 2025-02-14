@@ -1,0 +1,11 @@
+{iscript:
+load {iv} a
+wiggle a
+rotate a 90
+wiggle a
+rotate a -90
+invert a
+rotate a 180
+invert a
+detunnel a
+} unfinished
